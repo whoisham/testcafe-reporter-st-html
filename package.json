@@ -1,0 +1,72 @@
+{
+  "_from": "testcafe-reporter-st-html",
+  "_id": "testcafe-reporter-st-html@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-dYRSMOYAiM5O4rBUms8F/T9zvQY=",
+  "_location": "/testcafe-reporter-st-html",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "testcafe-reporter-st-html",
+    "name": "testcafe-reporter-st-html",
+    "escapedName": "testcafe-reporter-st-html",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/testcafe-reporter-st-html/download/testcafe-reporter-st-html-1.0.0.tgz",
+  "_shasum": "75845230e60088ce4ee2b0549acf05fd3f73bd06",
+  "_spec": "testcafe-reporter-st-html",
+  "_where": "D:\\nodejs\\npm\\node_modules\\testcafe-reporter-st-html\\test",
+  "author": {
+    "name": "songtao",
+    "email": "1600133971@qq.com",
+    "url": "http://songtao.com"
+  },
+  "bugs": {
+    "url": "https://github.com/1600133971/testcafe-reporter-st-html/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "phil TestCafe reporter plugin.",
+  "devDependencies": {
+    "babel-eslint": "^4.0.10",
+    "callsite-record": "^3.2.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0",
+    "normalize-newline": "^1.0.2",
+    "publish-please": "^2.1.4",
+    "read-file-relative": "^1.2.0",
+    "testcafe": "^0.2.0-alpha"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/1600133971/testcafe-reporter-st-html#readme",
+  "keywords": [
+    "phil",
+    "testcafe",
+    "reporter",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "lib/index",
+  "name": "testcafe-reporter-st-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1600133971/testcafe-reporter-st-html.git"
+  },
+  "scripts": {
+    "prepublish": "publish-please guard",
+    "publish-please": "publish-please",
+    "test": "gulp test"
+  },
+  "version": "1.0.0"
+}
