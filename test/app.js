@@ -11,6 +11,7 @@ createTestCafe('localhost')
     const runner = testcafe.createRunner();
 
     return runner
+      .startApp('node server.js 8085', 4000)
       .src('fixture1.js')
       .src('fixture2.js')
       .src('fixture3.js')
